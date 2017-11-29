@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+}
+
+section{
+	display: none;
+	font-size: 18pt;
+	font-family: Garamond;
+	line-height: 1.4em;
+	letter-spacing: 0.5px;
+	padding: 20px;
+}
+
+section>*{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 4px
+
+}
+
+p{
+	text-indent: 50px
+}
+
+
+.dark{
+	background-color: black;
+	color: white;
+}
