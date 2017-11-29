@@ -10,7 +10,7 @@
 
 <body>
 	<section id = "light1" style = "display: block;">
-	<h1> <button onclick = 'document.getElementById("dark1").style.display="block"; 
+	<h1> <button class = "btn-dark" onclick = 'document.getElementById("dark1").style.display="block"; 
 		document.getElementById("light1").style.display="none"'> In the Dark </button> </h1>
 	<h1> The Legend </h1>
 
@@ -73,23 +73,23 @@
 		<p>&ldquo;You would be correct,&rdquo; Makke answered with a grin. &ldquo;But that&rsquo;s enough about me. Tell me more about yourself.&rdquo;</p>
 
 		<p>They conversed for over two hours about all sorts of things&mdash;politics, history, relationship troubles, books, and food (the human kind). Of course, Makke would redirect the conversation whenever they felt that Luciana was close to asking something about their experience as a demon. It would be better for her if she knew as little as possible about Hell, for she was destined to go to Heaven.</p>
-	<h1> <button onclick = 'document.getElementById("light2").style.display="block";
+	<h1> <button class = "btn-nlight" onclick = 'document.getElementById("light2").style.display="block";
 		document.getElementById("light1").style.display="none";
 		topFunction()'> The Revelation </button> </h1>
 	</section>
 
 	<section class = "dark" id = "dark1">
-	<h1> <button onclick = 'document.getElementById("light1").style.display="block"; 
+	<h1> <button class = "btn-light" onclick = 'document.getElementById("light1").style.display="block"; 
 		document.getElementById("dark1").style.display="none"'> In the Light </button> </h1>
 	<h1> The Legend, Inside </h1>
 		<p> This section details Makke's POV of the events. </p>
-	<h1> <button onclick = 'document.getElementById("dark2").style.display="block";
+	<h1> <button class = "btn-ndark" onclick = 'document.getElementById("dark2").style.display="block";
 		document.getElementById("dark1").style.display="none";
 		topFunction()'> The Revelation, Jesus Christ </button> </h1>
 	</section>	
 
 	<section id = "light2">
-	<h1> <button onclick = 'document.getElementById("dark2").style.display="block"; 
+	<h1> <button class = "btn-dark" onclick = 'document.getElementById("dark2").style.display="block"; 
 		document.getElementById("light2").style.display="none"'> In the Dark </button> </h1>
 	<h1> The Revelation </h1>
 
@@ -130,26 +130,26 @@
 		<p>&ldquo;Calm down,&rdquo; Lucius said, stroking Makke&rsquo;s long, golden hair. &ldquo;I don&rsquo;t mean to fight him. I merely mean to ask him to retire. He&rsquo;s been in power for twenty thousand years now, and he&rsquo;s been complaining to me about it for the last hundred. He&rsquo;s sick of being Satan, but he&rsquo;s afraid that whoever he was to hand the power to would abuse it.&rdquo;</p>
 
 		<p>&ldquo;Hmm,&rdquo; Makke chirped. And with a smile, she said, &ldquo;I bet we can convince him otherwise.</p>
-	<h1> <button onclick = 'document.getElementById("light3").style.display="block";
+	<h1> <button class = "btn-nlight" onclick = 'document.getElementById("light3").style.display="block";
 		document.getElementById("light2").style.display="none";
 		topFunction()'> The Prophecy </button> </h1>
 	</section>
 
 	<section class = "dark" id = "dark2">
-	<h1> <button onclick = 'document.getElementById("light2").style.display="block"; 
+	<h1> <button class = "btn-light" onclick = 'document.getElementById("light2").style.display="block"; 
 		document.getElementById("dark2").style.display="none"'> In the Light </button> </h1>
-	<h1> <button onclick = 'document.getElementById("sacrifice").style.display="block";
+	<h1> <button class = "sacrifice-btn" onclick = 'document.getElementById("sacrifice").style.display="block";
 	document.getElementById("dark2").style.display="none";
 	topFunction()'> The Sacrifice, in Time </button> </h1>
 	<h1> The Revelation, Jesus Christ </h1>
 		<p> This section details Lucius's POV of the events. </p>
-	<h1> <button onclick = 'document.getElementById("dark3").style.display="block";
+	<h1> <button class = "btn-ndark" onclick = 'document.getElementById("dark3").style.display="block";
 	document.getElementById("dark2").style.display="none";
 	topFunction()'> The Prophecy, It's Here </button> </h1>
 	</section>
 
 	<section id = "light3">
-	<h1> <button onclick = 'document.getElementById("dark3").style.display="block"; 
+	<h1> <button class = "btn-dark" onclick = 'document.getElementById("dark3").style.display="block"; 
 		document.getElementById("light3").style.display="none"'> In the Dark </button> </h1>
 	<h1> The Prophecy </h1>
 
@@ -198,17 +198,17 @@
 		<p>Luciana held them to her chest and cried through a smile. &ldquo;Thank you, Makke. You have been like a father to me. I&rsquo;ll make sure to come to town as often as I can to see you and so you can meet her.&rdquo;</p>
 
 		<p>&ldquo;Thanks,&rdquo; Makke said, grinning. &ldquo;I would like that.&rdquo;</p>
-	<h1> <button onclick = 'document.getElementById("light1").style.display="block";
+	<h1> <button class = "btn-nlight" onclick = 'document.getElementById("light1").style.display="block";
 		document.getElementById("light3").style.display="none";
 		topFunction()'> Start Over </button> </h1>
 	</section>
 
 	<section class = "dark" id = "dark3">
-	<h1> <button onclick = 'document.getElementById("light3").style.display="block"; 
+	<h1> <button class = "btn-light" onclick = 'document.getElementById("light3").style.display="block"; 
 		document.getElementById("dark3").style.display="none"'> In the Light </button> </h1>
 	<h1> The Prophecy, It's Here </h1>
 		<p> This section details Makke's POV of the events. </p>
-	<h1> <button onclick = 'document.getElementById("light1").style.display="block";
+	<h1> <button class = "btn-ndark" onclick = 'document.getElementById("light1").style.display="block";
 		document.getElementById("dark3").style.display="none";
 		topFunction()'> Start Over </button> </h1>
 	</section>
@@ -216,7 +216,7 @@
 	<section id = "sacrifice">
 	<h1> The Sacrifice </h1>
 		<p> This section details Sonnos's POV on how Lucius is reborn. </p>
-	<h1> <button onclick = 'document.getElementById("light3").style.display="block";
+	<h1> <button class = "btn-nlight" onclick = 'document.getElementById("light3").style.display="block";
 		document.getElementById("sacrifice").style.display="none";
 		topFunction()'> The Prophecy </button> </h1>
 	</section>
